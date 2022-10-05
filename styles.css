@@ -1,0 +1,89 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+
+.hero {
+    background-image: url("https://i.kinja-img.com/gawker-media/image/upload/q_75,w_1600,h_900,c_fill/1432fedb88c0d1cc56f4c496a80f251c.JPG");
+    height: auto;
+    max-width: 100%;
+    background-size: cover;
+    color: beige;
+    font-family: 'Cardo', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    margin: 10px auto;
+    padding: 80px;
+}
+
+.activity{
+    background-image: linear-gradient(to right, bisque, #99f2d1);
+    background-size: cover;
+    margin: -10px 0 -20px 0;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10 px auto;
+    padding: 60px;
+    height: auto;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.images {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10 px auto;
+    overflow: hidden;
+}
+
+p {
+    font-size: 12px;
+    width: 100p
+}
+
+.avatar {
+    width: 90px;
+    border-radius: 150px 200px 80px 240px;
+    border: 6px dotted #f25c54;
+    box-shadow: 5px 5px black;
+}
+
+
+.card {
+    width: 400px;
+    margin: 60px auto;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    background: #d62828;
+    color: #faedcd;
+    border-top: 6px solid #5a189a;
+    border-left: 6px solid #780116;
+    border-radius: 20px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
